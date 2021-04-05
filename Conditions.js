@@ -1,6 +1,6 @@
-n=10
+let n=10;
 console.log(n%2);
-
+//
 //% = modulus
 // == : compare data
 // === : compare data and type
@@ -12,7 +12,7 @@ if(n%2==0){
     console.log("Even Number");
     }
     else{
-        console.log("Odd number");
+        console.log("Odd number"); 
         
     }
 
