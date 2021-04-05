@@ -9,5 +9,6 @@ console.log(z);
 
 let employee = ["name", "id", "salary"];
 console.log(employee);
+//pushing
 employee.push("project", "team");
 console.log(employee);
