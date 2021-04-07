@@ -1,7 +1,10 @@
 // 5*4*3*2*1
+function factorial(res){                           
+
 let given = 1;
-for(n=1; n<=5; n++){
+for(n=1; n<=res; n++){
     given=given*n;
-    console.log(given);
-    
+    }
+    return(given)
 }
+console.log(factorial(4));
