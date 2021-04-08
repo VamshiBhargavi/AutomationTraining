@@ -1,13 +1,13 @@
 // array
 let tool = {
-    name:"selenium",
-    version:4,
-    languages:["java", "js", "python", "ruby", "c#"],
-    start:function(){
-    console.log(this.name+" is started");
+    name: "selenium",
+    version: 4,
+    languages: ["java", "js", "python", "ruby", "c#"],
+    start: function () {
+        console.log(this.name + " is started");
     },
-    stop:function(){
-    console.log(this.name+" is stopped");
+    stop: function () {
+        console.log(this.name + " is stopped");
     }
 }
 
